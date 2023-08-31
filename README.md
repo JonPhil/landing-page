@@ -1,1 +1,1 @@
-# landing-page
+This is a landing page created using my acquired knowledge of css and html so far.

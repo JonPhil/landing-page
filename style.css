@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'roboto';
+}
+.hero {
+    background-color: #1F2937;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px;
+    padding-top: 16px;
+}
+.right-links {
+    display: flex;
+    gap: 24px;
+}
+.main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    display: flex;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration-line: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.content1 {
+    display: flex;
+    flex-direction: row;
+    margin: 100px 300px;
+    justify-content: space-evenly;
+    gap: 36px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1;
+    align-content: flex-start;
+}
+.second {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+}
+.button1 {
+    background-color: #3882F6;
+    border: solid 1px #3882F6 ;
+    align-self: flex-start;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.image1 {
+    object-fit: cover;
+    flex: 1;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0px 300px;
+}
+.header2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    justify-content: center;
+    display: flex;
+    padding: 32px;
+}
+.box {
+    background-color: white;
+    border: solid 2px#3882F6;
+    border-radius: 10px;
+    padding: 90px;
+}
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.gib {
+    padding-top: 8px;
+    margin-bottom: 115px;
+    text-align: center;
+    font-size: 18px;
+}
+.boxes div {
+    max-width: 184px;
+}
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 540px;
+}
+.txtqte {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.sign {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.cta {
+    display: flex;
+    padding: 160px 300px;
+}
+.text2 {
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 100px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+.button2 {
+    background-color: #3882F6;
+    border: solid 2px white;
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.main2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+.sec2 {
+    font-size: 24px;
+    font-weight: 100;
+}
+.footer {
+    font-size: 18px;
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    padding: 32px;
+}
